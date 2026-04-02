@@ -16,6 +16,11 @@
       padding: 20px;
       text-align: center;
     }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
     main {
       max-width: 800px;
       margin: 20px auto;
@@ -23,11 +28,8 @@
       padding: 20px;
       border-radius: 10px;
     }
-    h1 {
+    h1, h2 {
       color: #333;
-    }
-    h2 {
-      color: #555;
     }
     p {
       line-height: 1.6;
@@ -39,11 +41,20 @@
       margin: 20px 0;
       border-left: 5px solid #222;
     }
+    .blog-image {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
 
 <header>
+  <!-- Profile Image -->
+  <img src="https://ibb.co.com/V0VZmJkc" alt="My Profile">
   <h1>🌿 ক্ষমতার চেয়েও বড়</h1>
   <p>Author: Your Name | Published: Today</p>
 </header>
@@ -52,6 +63,9 @@
   <p>একটা ছোট শহর ছিল। শহরটা বাইরে থেকে শান্ত, কিন্তু ভেতরে ভেতরে সবসময় একটা অদৃশ্য টানাপোড়েন চলত—ক্ষমতা আর মানুষের অধিকারের মধ্যে।</p>
 
   <p>সেই শহরে একজন তরুণ ছিল, নাম রাশেদ। সে কোনো বড় নেতা ছিল না, কোনো দলের বড় কর্মীও না। কিন্তু তার একটা স্বপ্ন ছিল—শহরটা যেন সত্যি সত্যি মানুষের হয়।</p>
+
+  <!-- Blog Post Image -->
+  <img class="blog-image" src="https://yourusername.github.io/blog-image.jpg" alt="Political Scene">
 
   <p>একদিন শহরে নির্বাচন এলো। বড় বড় নেতা আসলো, বড় বড় প্রতিশ্রুতি দিল—রাস্তাঘাট, উন্নয়ন, চাকরি। মানুষ হাততালি দিল, পোস্টার লাগালো, মিছিল করলো।</p>
 
